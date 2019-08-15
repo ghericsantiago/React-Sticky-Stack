@@ -3,16 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
-  "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "transpile": "babel src -d dist --copy-files"
   },
   "eslintConfig": {
@@ -29,6 +20,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5"

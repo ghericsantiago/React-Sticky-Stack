@@ -1,5 +1,5 @@
-import Simple from './Simple'
+import StickyStackContext from './StickyStackContext'
+import StickyStackItem from './StickyStackItem'
+import StickyStackContainer from './StickyStackContainer'
 
-export {
-    Simple
-}
+export {StickyStackContext, StickyStackItem, StickyStackContainer};
